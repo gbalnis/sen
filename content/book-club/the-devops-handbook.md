@@ -1,13 +1,14 @@
 ---
 title: "The DevOps Handbook"
 date: 2026-01-10
-description: A summary of The DevOps Handbook by Gene Kim et al., the practical how-to guide for creating world-class agility, reliability, and security through the Three Ways of Flow, Feedback, and Continual Learning.
+markup: markdown
+summary: A summary of The DevOps Handbook by Gene Kim et al., the practical how-to guide for creating world-class agility, reliability, and security through the Three Ways of Flow, Feedback, and Continual Learning.
 tags:
-  - devops
-  - engineering-practice
-  - organizational-transformation
+  - DevOps
+  - engineering practice
+  - organizational transformation
   - lean
-  - continuous-delivery
+  - continuous delivery
   - culture
 params:
   author: Greg Balnis

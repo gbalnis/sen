@@ -1,13 +1,14 @@
 ---
 title: "Accelerate"
 date: 2025-12-19
-description: A summary of Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim, explaining how DORA research links software delivery performance to organizational success through technical, cultural, and measurement practices.
-tags:
-  - devops
-  - engineering-performance
-  - dora-metrics
-  - organizational-culture
-  - continuous-delivery
+markup: markdown
+summary: A summary of Accelerate by Nicole Forsgren, Jez Humble, and Gene Kim, explaining how DORA research links software delivery performance to organizational success through technical, cultural, and measurement practices.
+keywords:
+  - DevOps
+  - engineering performance
+  - DORA metrics
+  - organizational culture
+  - continuous delivery
 params:
   author: Greg Balnis
 ---
