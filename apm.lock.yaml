@@ -8,8 +8,53 @@ dependencies:
   resolved_ref: v1.0.3
   version: 1.0.3
   package_type: apm_package
+  deployed_files:
+  - .agents/skills/book-summary-editor
+  - .agents/skills/book-summary-editor/SKILL.md
+  - .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md
+  - .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md
+  deployed_file_hashes:
+    .agents/skills/book-summary-editor/SKILL.md: sha256:12a705d2eb7e441d505e3e5b5f7124c09a7ce7704187bb6987f3476ff7dcc36c
+    .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
+    .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
   content_hash: sha256:90e2920fc226f9d74eb86dccbb7ec30f25907233086fb473c65b9edc8386a346
   constraint: 1.0.3
   resolved_tag: v1.0.3
   resolved_at: '2026-11-03T17:16:05+00:00'
-deployments: []
+deployments:
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:12a705d2eb7e441d505e3e5b5f7124c09a7ce7704187bb6987f3476ff7dcc36c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
