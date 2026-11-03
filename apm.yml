@@ -1,0 +1,17 @@
+name: sen
+version: 1.0.0
+description: APM project for Software Engineering Notebook
+author: Greg Balnis
+# Which agent platforms to deploy to.
+# Resolution order: --target flag > this field > auto-detect from filesystem.
+# Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-bot, grok-build, hermes, kiro, opencode, vscode, windsurf
+targets:
+  - copilot
+  - opencode
+  - vscode
+dependencies:
+  apm:
+    - gbalnis/writing-assistant#1.0.2
+  mcp: []
+includes: auto
+scripts: {}

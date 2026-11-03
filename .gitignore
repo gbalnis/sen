@@ -1,0 +1,12 @@
+
+# APM dependencies
+apm_modules/
+
+# APM deployments
+.agents/
+.opencode/
+
+# Hugo
+/public/
+/resources/_gen/
+.hugo_build.lock

@@ -1,0 +1,60 @@
+lockfile_version: '2'
+apm_version: 0.35.0
+dependencies:
+- repo_url: gbalnis/writing-assistant
+  name: writing-assistant
+  host: github.com
+  resolved_commit: 401ccaa57a0360ab8b558228e4562dcf32c2c182
+  resolved_ref: v1.0.2
+  version: 1.0.2
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/book-summary-editor
+  - .agents/skills/book-summary-editor/SKILL.md
+  - .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md
+  - .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md
+  deployed_file_hashes:
+    .agents/skills/book-summary-editor/SKILL.md: sha256:7b3f3b31930fd0fbdfbf4ef520224d95301cd6d4705afe755570b0edc47d4c11
+    .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
+    .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
+  content_hash: sha256:1b7a90e01dac91191ec5c41bd3cff9539f5b38fda701f0ca179f77a73f06fdd4
+  constraint: 1.0.2
+  resolved_tag: v1.0.2
+  resolved_at: '2026-11-03T06:39:53+00:00'
+deployments:
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:7b3f3b31930fd0fbdfbf4ef520224d95301cd6d4705afe755570b0edc47d4c11
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
