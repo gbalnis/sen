@@ -41,7 +41,7 @@
   	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "apm install --target opencode,vscode gbalnis/writing-assistant#1.0.2"
+	"postCreateCommand": "apm install --target opencode,vscode gbalnis/writing-assistant#1.1.0"
 
 	// Configure tool-specific properties.
 	// "customizations": {},

@@ -11,7 +11,7 @@ targets:
   - vscode
 dependencies:
   apm:
-    - gbalnis/writing-assistant#1.0.3
+    - gbalnis/writing-assistant#1.1.0
   mcp: []
 includes: auto
 scripts: {}
