@@ -1,26 +1,47 @@
 lockfile_version: '2'
 apm_version: 0.35.0
 dependencies:
+- repo_url: gbalnis/send-to-kindle
+  name: send-to-kindle
+  host: github.com
+  resolved_commit: fb7abddd0c5eed9c3a0440424e6fca038389e018
+  resolved_ref: v1.0.0
+  version: 1.0.0
+  package_type: apm_package
+  deployed_files:
+  - .agents/skills/send-to-kindle
+  - .agents/skills/send-to-kindle/SKILL.md
+  - .agents/skills/send-to-kindle/scripts/send-to-kindle.sh
+  deployed_file_hashes:
+    .agents/skills/send-to-kindle/SKILL.md: sha256:c971d03c8a703b9de3ebfb32ff5d7e5a16f9d3274d0edc17385b60878098fcbc
+    .agents/skills/send-to-kindle/scripts/send-to-kindle.sh: sha256:4d4081ff1fb10279a60380877e1fb9abddc25ba36da8c65533e970d3d4f8ea6b
+  content_hash: sha256:12d3cb52d9c5ce6f440be3002a0e447b6d538d1179cd096fb221a5899acd4936
+  constraint: 1.0.0
+  resolved_tag: v1.0.0
+  resolved_at: '2026-11-04T12:36:48+00:00'
 - repo_url: gbalnis/writing-assistant
   name: writing-assistant
   host: github.com
-  resolved_commit: b534e4729df9179491021ba91f59e049513c32e9
-  resolved_ref: v1.0.3
-  version: 1.0.3
+  resolved_commit: e16f08e333a7e95508e9b02cf9f09ef88dbd4e77
+  resolved_ref: v1.1.0
+  version: 1.1.0
   package_type: apm_package
   deployed_files:
   - .agents/skills/book-summary-editor
   - .agents/skills/book-summary-editor/SKILL.md
   - .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md
   - .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md
+  - .agents/skills/reading-organizer
+  - .agents/skills/reading-organizer/SKILL.md
   deployed_file_hashes:
     .agents/skills/book-summary-editor/SKILL.md: sha256:12a705d2eb7e441d505e3e5b5f7124c09a7ce7704187bb6987f3476ff7dcc36c
     .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
     .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
-  content_hash: sha256:90e2920fc226f9d74eb86dccbb7ec30f25907233086fb473c65b9edc8386a346
-  constraint: 1.0.3
-  resolved_tag: v1.0.3
-  resolved_at: '2026-11-03T17:16:05+00:00'
+    .agents/skills/reading-organizer/SKILL.md: sha256:8f6f46329715e080b90732aa979c335eff0eb0e1eae3977447ecf7a9c63a44d7
+  content_hash: sha256:96cd005185c226905e51d847cda62b691f5934d0762e0bcefdd18f5789ed509e
+  constraint: 1.1.0
+  resolved_tag: v1.1.0
+  resolved_at: '2026-11-04T06:27:31+00:00'
 deployments:
 - kind: project-relative
   target: copilot
@@ -58,3 +79,48 @@ deployments:
   - gbalnis/writing-assistant
   active_owner: gbalnis/writing-assistant
   content_hash: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/reading-organizer
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/reading-organizer/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/writing-assistant
+  active_owner: gbalnis/writing-assistant
+  content_hash: sha256:8f6f46329715e080b90732aa979c335eff0eb0e1eae3977447ecf7a9c63a44d7
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/send-to-kindle
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/send-to-kindle
+  active_owner: gbalnis/send-to-kindle
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/send-to-kindle/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/send-to-kindle
+  active_owner: gbalnis/send-to-kindle
+  content_hash: sha256:c971d03c8a703b9de3ebfb32ff5d7e5a16f9d3274d0edc17385b60878098fcbc
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/send-to-kindle/scripts/send-to-kindle.sh
+  runtime: null
+  scope: project
+  owners:
+  - gbalnis/send-to-kindle
+  active_owner: gbalnis/send-to-kindle
+  content_hash: sha256:4d4081ff1fb10279a60380877e1fb9abddc25ba36da8c65533e970d3d4f8ea6b

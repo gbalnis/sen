@@ -12,6 +12,7 @@ targets:
 dependencies:
   apm:
     - gbalnis/writing-assistant#1.1.0
+    - gbalnis/send-to-kindle#1.0.0
   mcp: []
 includes: auto
 scripts: {}
