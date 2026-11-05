@@ -124,3 +124,45 @@ deployments:
   - gbalnis/send-to-kindle
   active_owner: gbalnis/send-to-kindle
   content_hash: sha256:4d4081ff1fb10279a60380877e1fb9abddc25ba36da8c65533e970d3d4f8ea6b
+- kind: uri
+  target: mcp
+  value: lenz
+  runtime: copilot
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: uri
+  target: mcp
+  value: lenz
+  runtime: opencode
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+- kind: uri
+  target: mcp
+  value: lenz
+  runtime: vscode
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: null
+mcp_servers:
+- lenz
+mcp_configs:
+  lenz:
+    name: lenz
+    transport: http
+    registry: false
+    url: https://lenz.io/mcp
+mcp_target_servers:
+  copilot:
+  - lenz
+  opencode:
+  - lenz
+  vscode:
+  - lenz

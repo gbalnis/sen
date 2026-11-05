@@ -6,9 +6,14 @@
 # APM dependencies
 apm_modules/
 
-# APM deployments
+# APM and MCP deployments
 .agents/
 .opencode/
+.github/mcp.json
+opencode.json
+
+# VS Code
+.vscode/
 
 # Hugo
 /public/

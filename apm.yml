@@ -13,6 +13,12 @@ dependencies:
   apm:
     - gbalnis/writing-assistant#1.1.0
     - gbalnis/send-to-kindle#1.0.0
-  mcp: []
+  mcp:
+    # Lenz MCP deployment configuration
+    # https://lenz.io/
+    - name: lenz
+      registry: false
+      transport: http
+      url: https://lenz.io/mcp
 includes: auto
 scripts: {}
