@@ -18,13 +18,13 @@ dependencies:
   content_hash: sha256:12d3cb52d9c5ce6f440be3002a0e447b6d538d1179cd096fb221a5899acd4936
   constraint: 1.0.0
   resolved_tag: v1.0.0
-  resolved_at: '2026-11-04T12:36:48+00:00'
+  resolved_at: '2026-11-05T12:50:07+00:00'
 - repo_url: gbalnis/writing-assistant
   name: writing-assistant
   host: github.com
-  resolved_commit: e16f08e333a7e95508e9b02cf9f09ef88dbd4e77
-  resolved_ref: v1.1.0
-  version: 1.1.0
+  resolved_commit: cd98f5ba3be8bbf8b43a152aa88298720654d917
+  resolved_ref: v1.1.1
+  version: 1.1.1
   package_type: apm_package
   deployed_files:
   - .agents/skills/book-summary-editor
@@ -34,14 +34,14 @@ dependencies:
   - .agents/skills/reading-organizer
   - .agents/skills/reading-organizer/SKILL.md
   deployed_file_hashes:
-    .agents/skills/book-summary-editor/SKILL.md: sha256:12a705d2eb7e441d505e3e5b5f7124c09a7ce7704187bb6987f3476ff7dcc36c
+    .agents/skills/book-summary-editor/SKILL.md: sha256:2b008a7b65a47a35dbe6d103aacfb13ea4a586c0221b456cca6ac629f73e93e3
     .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md: sha256:8ba1ed04c7b16e503c72f05738a8f007f7fac5c9148d5a46f8dcd1e6bd27e5f5
     .agents/skills/book-summary-editor/resources/guide-bibliographic-references.md: sha256:2f0a88a18f469b52afe23986ad7a58937c726ad9cedfcc1a6ba1c1a652bce248
     .agents/skills/reading-organizer/SKILL.md: sha256:8f6f46329715e080b90732aa979c335eff0eb0e1eae3977447ecf7a9c63a44d7
-  content_hash: sha256:96cd005185c226905e51d847cda62b691f5934d0762e0bcefdd18f5789ed509e
-  constraint: 1.1.0
-  resolved_tag: v1.1.0
-  resolved_at: '2026-11-04T06:27:31+00:00'
+  content_hash: sha256:bcd605f7f7eabe774620759f79c24ed1fbec0a9cbb69b3be697a0b8b8f480962
+  constraint: 1.1.1
+  resolved_tag: v1.1.1
+  resolved_at: '2026-11-05T12:50:07+00:00'
 deployments:
 - kind: project-relative
   target: copilot
@@ -60,7 +60,7 @@ deployments:
   owners:
   - gbalnis/writing-assistant
   active_owner: gbalnis/writing-assistant
-  content_hash: sha256:12a705d2eb7e441d505e3e5b5f7124c09a7ce7704187bb6987f3476ff7dcc36c
+  content_hash: sha256:2b008a7b65a47a35dbe6d103aacfb13ea4a586c0221b456cca6ac629f73e93e3
 - kind: project-relative
   target: copilot
   value: .agents/skills/book-summary-editor/resources/guide-bibliographic-references-books.md

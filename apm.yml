@@ -11,7 +11,7 @@ targets:
   - vscode
 dependencies:
   apm:
-    - gbalnis/writing-assistant#1.1.0
+    - gbalnis/writing-assistant#1.1.1
     - gbalnis/send-to-kindle#1.0.0
   mcp:
     # Lenz MCP deployment configuration
