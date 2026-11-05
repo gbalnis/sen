@@ -3,7 +3,7 @@ title: "Thinking in Systems"
 date: 2026-03-28
 markup: markdown
 summary: A summary of Donella Meadows' primer on systems thinking — how stocks, flows, feedback loops, and delays shape the behavior of complex systems, why common fixes fail through predictable system traps, and where to find the rare high-leverage points of intervention.
-keywords:
+tags:
   - systems thinking
   - feedback loops
   - leverage points

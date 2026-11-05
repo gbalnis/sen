@@ -195,6 +195,16 @@ Slow Productivity is not about slowing outcomes. It is about reducing the chaos 
 
 What will human and AI-agent collaboration look like when AI agents do not naturally experience the cognitive limits that drive slow productivity? What guardrails should exist at human-agent handoff points?
 
+## Fact Check
+
+**Main results**
+- **True, high confidence:** Newport’s three principles; both quoted passages and their attribution; publication in March 2024 by Portfolio/Penguin; 256 pages and five chapters plus bookends; the book’s omission of AI; the claims attributed to Meredith Farkas and Cathy Mazak; and the summaries of *Four Thousand Weeks* and the book’s named historical exemplars.
+- **True, medium confidence:** The historical point about variable pre-industrial work rhythms and the DORA/MTTR description.
+- **Mostly true, medium confidence:** The pseudo-productivity thesis and its relationship to burnout; the Ira Glass paraphrase; and the Basecamp cycle example. Lenz’s two passes differed on Basecamp’s cycle range: it confirmed Newport’s 6–8-week example, while noting Basecamp’s standard Shape Up cycle is six weeks, with some variation.
+- **Needs qualification:** The “overhead tax scales with the number of commitments, not their size” claim was **Mostly True, low confidence**; project size and coordination complexity also affect overhead. The John Carpenter/Halloween example was **Mostly True, low confidence** and may read as a literal bet. The claim that public commitments force quality standards up was **Mixed, medium confidence**. The statement that Newport treats collaboration largely as overhead to minimize was **Mostly False, medium confidence**; Lenz says that overstates his position.
+
+Some advice and predictions in the software-application sections are not factual claims that a quick fact-check can settle, and weren’t all assessed individually. The two low-confidence points most worth investigating further are the overhead-tax formulation and the Carpenter example.
+
 # Reading Plan
 
 ## Goal and evidence

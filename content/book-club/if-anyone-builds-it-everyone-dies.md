@@ -3,7 +3,7 @@ title: "If Anyone Builds It, Everyone Dies"
 date: 2026-10-03
 markup: markdown
 summary: A summary of Eliezer Yudkowsky and Nate Soares' argument that superhuman AI built with current methods would be catastrophically misaligned, that alignment is an unsolved scientific problem, and that the only safe course is a global halt on frontier AGI development.
-keywords:
+tags:
   - AI alignment
   - existential risk
   - superintelligence

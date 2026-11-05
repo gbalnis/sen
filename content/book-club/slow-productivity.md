@@ -3,14 +3,14 @@ title: "Slow Productivity"
 date: 2026-03-01
 markup: markdown
 summary: A summary of Slow Productivity by Cal Newport, arguing that knowledge work's addiction to visible busyness ("pseudo-productivity") is escaped by doing fewer things, working at a natural pace, and obsessing over quality — translated here into concrete practices for software engineering teams.
-keywords:
+tags:
   - slow productivity
   - pseudo-productivity
   - burnout
   - deep work
   - WIP limits
   - knowledge work
-  - developer experience
+  - Developer Experience
   - engineering leadership
 params:
   author: Greg Balnis

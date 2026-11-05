@@ -4,8 +4,7 @@ date: 2026-04-05
 markup: markdown
 summary: A summary of Frictionless by Nicole Forsgren and Abi Noda, arguing that developer productivity is best improved by removing systemic friction rather than maximizing individual output.
 tags:
-  - developer experience
-  - DevEx
+  - Developer Experience
   - productivity
   - engineering management
   - cognitive load

@@ -1,6 +1,37 @@
 baseURL: 'https://gbalnis.github.io/sen/'
 locale: 'en-us'
 title: 'Greg’s Software Engineering Notebook'
+
 module:
   imports:
     - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Search
+      weight: 10
+      params:
+        type: search
+
+# Parse Git commit
+enableGitInfo: true
+
+params:
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "1 January 2006"
+  # Configure footer
+  footer:
+    displayCopyright: true  # i18n/en.yaml
+    displayPoweredBy: false
+  # Display tags
+  toc:
+      displayTags: true
+  # Search configuration
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content

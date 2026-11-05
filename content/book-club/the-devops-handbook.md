@@ -9,7 +9,7 @@ tags:
   - organizational transformation
   - lean
   - continuous delivery
-  - culture
+  - organizational culture
 params:
   author: Greg Balnis
 ---
