@@ -6,3 +6,8 @@ weight: 20
 cascade:
   type: docs
 ---
+
+> It's hard to read a book. That hardness is the feeling of changing your understanding of the world in yourself. That strain is similar to the strain that the athlete feels in the gym. That's how they know that their muscles are getting stronger, or the burn they feel in their lungs as they run wind sprints is their feeling of their cardiovascular health getting better. This is "I'm getting a real reward out of it". The cognitive strain of reading a book is how you know your brain is changing. You're learning something new. The scaffolding on which you are understanding yourself and your world is actually reconfiguring.
+
+Cal Newport, [Reading As An Act of Resistance](https://open.spotify.com/episode/7gOYUM78fzlvdN5UMCNI1S?si=7Tm6FBYkQrSPo3wphdf4TA), The Cal Newport Show
+
