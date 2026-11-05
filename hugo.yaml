@@ -14,12 +14,19 @@ menu:
         type: search
 
 # Parse Git commit
-enableGitInfo: true
+# enableGitInfo: true
+
+frontmatter:
+  lastmod:
+    - lastmod
+    - date
+    - :git
+    - publishDate
 
 params:
   # Display the last modification date
   displayUpdatedDate: true
-  dateFormat: "1 January 2006"
+  dateFormat: "2 January 2006"
   # Configure footer
   footer:
     displayCopyright: true  # i18n/en.yaml
