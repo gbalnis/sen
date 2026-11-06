@@ -12,3 +12,19 @@ cascade:
 
 Cal Newport, [Reading As An Act of Resistance](https://open.spotify.com/episode/7gOYUM78fzlvdN5UMCNI1S?si=7Tm6FBYkQrSPo3wphdf4TA), The Cal Newport Show
 
+## Reading List
+
+### People
+- _The Reverse Centaur's Guide to Life After AI_ by Cory Doctorow
+
+### Product
+- _Escaping the Build Trap_ by Melissa Perri (in progress)
+- _Inspired_ by Marty Cagan
+
+### Engineering
+- _Designing Data-Intensive Applications_ by Martin Kleppmann
+- _Measuring Continuous Delivery_ by Steve Smith
+- _Learning DevSecOps_ by Steve Suehring
+- _Refactoring_ by Martin Fowler
+
+
