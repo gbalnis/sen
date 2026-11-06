@@ -7,9 +7,198 @@ date: 2026-11-04
 
 ## Ideas
 
+December 10, 2025
+
+**Reference**: Huyen, C. (2025). *AI Engineering: Building Applications with Foundation Models* (1st ed.). O’Reilly Media.
+
+## Quick Summary of What the Book Covers
+
+This book lays out a complete, end-to-end view of how to build real, production-ready AI applications using modern foundation models:
+
+- LLMs
+- Diffusion models
+- Embeddings
+- Multimodal systems
+
+It covers the full lifecycle:
+
+- Product thinking for AI features
+- Designing ML systems architectures
+- Data pipelines and evaluation frameworks
+- Deployment, observability, and monitoring
+- Iterating safely and efficiently in production
+
+AI engineering is where software engineering, machine learning, and product development intersect.
+
+A recurring theme is that the model is rarely the hardest part. The real challenges are:
+
+- Data collection and management
+- Reliability and latency
+- Monitoring drift and failures
+- Versioning, testing, and deployment
+- Product feedback loops
+
+### Key Takeaways & Lessons Learned
+
+#### AI Is a Systems Problem, Not a Model Problem
+
+Chip argues that AI engineering is fundamentally systems design plus iteration, not training a new model from scratch.
+
+**Why this matters:**
+
+Invest time in infrastructure, data flows, and feedback loops instead of chasing marginal model improvements.
+
+#### The Importance of Clear Problem Scoping and Product Thinking
+
+Before writing a line of code, establish clarity on:
+
+- What users actually need
+- What decisions or actions the AI will influence
+- What success means
+- What failure modes are acceptable
+
+AI features should be treated like any other product feature, with an even stronger emphasis on experimentation and guardrails.
+
+**Why it is worth remembering:**
+
+Many AI projects fail because the problem is poorly framed rather than because the model is inadequate.
+
+#### Foundation Models Change the Tradeoffs, but Not the Fundamentals
+
+Foundation models accelerate development but introduce constraints:
+
+- Increased reliance on prompt engineering and model interfaces
+- Latency, context window limits, and token costs
+- Reduced visibility into model internals
+- Vendor dependence and API variability
+
+Engineering fundamentals still matter:
+
+- Clean abstractions
+- Reproducibility
+- Testing strategies
+- Modular architecture
+
+#### Evaluation Is the Beating Heart of AI Systems
+
+The book emphasizes that AI systems degrade over time.
+
+Key lessons:
+
+- Offline metrics often lie
+- Human-in-the-loop evaluation is essential
+- Continuous evaluation pipelines are required
+- Systems must be tested for robustness and safety
+- Feedback loops drive improvement
+
+A central idea is that evaluation is often more important than training.
+
+#### Data Is Still the Lever That Moves Mountains
+
+Data quality and operations remain decisive.
+
+Topics covered include:
+
+- Data labeling and review workflows
+- Ethical collection of user traces
+- Embeddings and vector search
+- Retrieval-Augmented Generation (RAG)
+- Data versioning and lineage
+
+> Data beats prompt-engineering hacks.
+
+#### Deployment and Monitoring Need AI-Specific Tooling
+
+Operating AI systems in production requires:
+
+- Output validation
+- Guardrails and safety filters
+- Prompt injection detection
+- Cost, latency, and usage monitoring
+- Canary testing
+- Staged rollouts
+
+The book places strong emphasis on observability and operational maturity.
+
+#### The Real Iteration Loop Is Continuous and Multidisciplinary
+
+AI engineering requires collaboration among:
+
+- Engineers
+- Product teams
+- Designers
+- Data scientists
+- Domain experts
+- Legal and policy teams
+
+The iteration cycle is:
+
+> Ship → Observe → Evaluate → Collect Data → Improve → Ship Again
+
+This differs significantly from traditional feature delivery.
+
+#### The Future of AI Engineering Will Look More Like Software Engineering
+
+As foundation models become commoditized, AI engineering will increasingly rely on:
+
+- High-level APIs
+- Standardized tooling
+- Shared infrastructure
+- Evaluation, observability, and testing libraries
+- Faster iteration cycles
+- More predictable system behavior
+
+### Why Would I Want to Return to This Book?
+
+- It is one of the most practical, systems-focused AI books available to date.
+- It provides reusable frameworks, checklists, and mental models.
+- The guidance is largely vendor-agnostic and durable.
+- It serves as a blueprint for designing AI features end-to-end.
+
+### Final Take
+
+For experienced software engineers moving from prototypes to production-grade AI systems, this book provides actionable guidance on building, operating, evaluating, and continuously improving AI applications.
+
+It does not focus on model mathematics. Instead, it teaches how to build AI systems that work, ship, and evolve.
+
+### References
+
+- Book resources: https://github.com/chiphuyen/aie-book
+
 ## Actions
 
 ## Questions
+
+- We need to carefully look into relationship between Product Manager and Engineering folks. It's sufficiently difficult to get engineers up to speed, how do we get the Product up to speed? Otherwise Engineering will have trouble explaining feasibility angle.
+- How do we avoid Engineering leading the way of re-thinking product development lifecycle.
+
+## Fact Check
+
+### Claims to revise or qualify
+
+- **Mostly False (medium):** Choosing desired training data, writing annotation guidelines, and verifying data “can’t be automated.” Lenz found examples of automation in data selection, guideline refinement, and labeling. “Still requires human judgment and oversight” would be more defensible.
+- **Mostly False (medium):** RAG is a special case of an agent. That fits agentic RAG more than classic fixed retrieve-then-generate RAG.
+- **Mixed (low):** Hallucination is a permanent property of generation. Lenz found disagreement; systems can reduce errors and abstain, even if they cannot guarantee correctness.
+- **Mixed (low):** The adaptation ladder as a general escalation path. It’s a useful heuristic, but not a universal order; the right choice depends on the failure mode.
+- **Mixed (medium):** A little high-quality data beats a lot of noisy data. Lenz found support for a qualified version, not a rule that holds across tasks and training setups.
+- **Mostly True (medium):** Public benchmarks can help weed out weak models, but the blanket claim that they “are contaminated” overgeneralizes. Some benchmarks are designed to resist contamination.
+- **Mostly True (medium):** AI systems degrade over time. Qualify this as risk from drift or changing conditions, rather than something that happens to every system.
+- **Mostly True (medium):** More agent autonomy brings more capability and catastrophic failure modes. Lenz found the link too categorical; risk depends on design and controls.
+- **Mixed (medium):** Chapter 6 covers agents as planners with tools, but saying it covers every tool’s attack surface overstates the chapter’s treatment.
+- **Mostly True (low):** User feedback blurs the product/engineering boundary. Lenz considers this a plausible trend, not a universal change.
+
+### Confirmed, with caveats
+
+- **True (high):** The book is about 534 pages and has 10 chapters; it is not primarily a tutorial and focuses on fundamentals over specific tools. The page-count claim initially got “No Public Record” when sent without the book title; with the title included, Lenz assessed it as true.
+- **Mostly True (low):** It has two evaluation chapters before the first technique chapter.
+- **Mostly True (medium):** The workflow inversion, evaluation challenges, judge-model drift, and the “should we build this?” framing are broadly supported, though some wording is categorical.
+- **Mostly True (medium):** LoRA/PEFT have made fine-tuning mechanics more accessible; dataset design can work backward from desired behaviors.
+- **True (high):** Agent tools add attack surface; prompt injection remains a real security risk.
+- **True (medium):** TTFT means time to first token and TPOT means time per output token. TTFT is influenced by queueing and network time too, not just prefill.
+- **True (high):** The chapter references checked for API-vs-self-hosting (Ch. 4), dataset engineering (Ch. 8), and inference optimization (Ch. 9) match those topics. **True (medium):** Ch. 10 covers observability and user feedback.
+- **Mostly True (medium):** The bibliographic citation’s 2025 date is supported, though the book’s first-edition copyright/release material also points to December 2024. The broader “late 2024/early 2025” publication claim is **True (high)**.
+
+One concrete mismatch: the draft calls the API-vs-self-hosting framework “seven-axis” but lists only six factors. Lenz says the omitted axis is **on-device deployment**. It also treats “evaluation is the scarce, decisive skill,” “the loop is the moat,” and “AI engineering will converge into software engineering” as framing or prediction, not settled factual claims.
 
 # Reading Plan
 
