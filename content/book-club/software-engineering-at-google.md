@@ -2,7 +2,6 @@
 title: "Software Engineering at Google"
 date: 2025-03-17
 markup: markdown
-draft: true
 summary: Titus Winters, Tom Manshreck, and Hyrum Wright argue that software engineering is "programming integrated over time" — a collection of practices for keeping code sustainable across time, scale, and trade-offs at a 10,000-engineer organization, from mandatory code review and monorepo dependency management to Large-Scale Changes and deliberate culture-building.
 tags:
   - software engineering
