@@ -124,6 +124,15 @@ deployments:
   - gbalnis/send-to-kindle
   active_owner: gbalnis/send-to-kindle
   content_hash: sha256:4d4081ff1fb10279a60380877e1fb9abddc25ba36da8c65533e970d3d4f8ea6b
+- kind: project-relative
+  target: copilot
+  value: .github/prompts/consolidate-tags.prompt.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:418625edfea4cfc1784dfc834a82330a64215e5fa8a1460f5c3317ef0d214c81
 - kind: uri
   target: mcp
   value: lenz
@@ -151,6 +160,15 @@ deployments:
   - .
   active_owner: .
   content_hash: null
+- kind: project-relative
+  target: opencode
+  value: .opencode/commands/consolidate-tags.md
+  runtime: null
+  scope: project
+  owners:
+  - .
+  active_owner: .
+  content_hash: sha256:16ecbc6c92b444083e5d907c60e3ceae2e6c216729bcfdea052e62115168f82c
 mcp_servers:
 - lenz
 mcp_configs:
@@ -166,3 +184,9 @@ mcp_target_servers:
   - lenz
   vscode:
   - lenz
+local_deployed_files:
+- .github/prompts/consolidate-tags.prompt.md
+- .opencode/commands/consolidate-tags.md
+local_deployed_file_hashes:
+  .github/prompts/consolidate-tags.prompt.md: sha256:418625edfea4cfc1784dfc834a82330a64215e5fa8a1460f5c3317ef0d214c81
+  .opencode/commands/consolidate-tags.md: sha256:16ecbc6c92b444083e5d907c60e3ceae2e6c216729bcfdea052e62115168f82c

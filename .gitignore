@@ -9,6 +9,7 @@ apm_modules/
 # APM and MCP deployments
 .agents/
 .opencode/
+.github/prompts/
 .github/mcp.json
 opencode.json
 
