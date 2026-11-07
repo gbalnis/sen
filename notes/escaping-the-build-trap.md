@@ -7,6 +7,100 @@ date: 2026-11-04
 
 ## Ideas
 
+### Value Exchange System
+
+A Value Exchange System describes how value flows between:
+
+- Customers who have needs, problems, and goals.
+- The organization that provides products or services to satisfy those needs.
+- The business that receives revenue, growth, retention, data, or other strategic benefits in return.
+
+The "exchange" is that:
+
+- Customers receive value when a product helps them achieve a desired outcome.
+- The company receives value when customers engage, pay, renew, recommend, or otherwise contribute to business success.
+- The relationship is continuous, not a one-time transaction.
+
+A healthy product organization continuously optimizes this exchange.
+
+Customer Problem
+    ↓
+Customer Behavior
+    ↓
+Product Outcome
+    ↓
+Business Outcome
+    ↓
+Learning
+    ↓
+Next Improvement
+
+Success is measured by **outcomes** rather than **outputs**.
+
+### Product-Lead Organization
+
+Business Goals
+    ↓
+Customer Problems
+    ↓
+Product Discovery
+    ↓
+Experiments
+    ↓
+Solutions
+    ↓
+Measured Outcomes
+
+"What customer problem should we solve to create business value?"
+
+### Product Manager
+
+- Obseses over customer problems, not features
+- Connects customer value to business value
+- Makes decisions under uncertainty
+- Is relentlessly focused on outcomes
+- Influences without authority
+- Understands technology enough to make trade-offs
+- Ruthlessly prioritizes
+- Creates organisational clarity
+
+### Strategic Framework
+
+Vision: What future are we trying to create?
+  ↓
+Strategic Intent: What are the desired business outcomes?
+  ↓
+Product Initiatives: Problem areas or opportunities that support strategic goals.
+  ↓
+Product Teams: Own initiatives
+  ↓
+Experiments & Solutions: Here the required features are discovered and forged
+  ↓
+Outcomes: Are we getting what we were hoping for?
+  ↓
+Business Impact
+
+### Product Kata
+
+- Establish the direction: What strategic objective are we trying to achieve?
+- Understand the current condition: Where are we today? What evidence supports that?
+- Define the next target condition: An intermediate measurable outcome.
+- Run experiments toward the target condition: Hypothesize, measure, learn, adjust, repeat.
+
+Direction
+    ↓
+Current Condition
+    ↓
+Target Condition
+    ↓
+Experiment
+    ↓
+Learning
+    ↓
+New Current Condition
+    ↓
+Next Target Condition
+
 ## Actions
 
 ## Questions

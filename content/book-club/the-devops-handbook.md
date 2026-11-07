@@ -5,7 +5,7 @@ markup: markdown
 summary: A summary of The DevOps Handbook by Gene Kim et al., the practical how-to guide for creating world-class agility, reliability, and security through the Three Ways of Flow, Feedback, and Continual Learning.
 tags:
   - DevOps
-  - engineering practice
+  - software engineering
   - organizational transformation
   - lean
   - continuous delivery
