@@ -1,6 +1,6 @@
 ---
 title: "Escaping the Build Trap"
-date: 2026-11-04
+date: 2026-11-08
 ---
 
 > I'm reading this book to learn Perri's product models and vocabulary, partner more effectively with product managers, and recognize and help shift an organization that rewards shipping over customer and business outcomes.
@@ -23,6 +23,7 @@ The "exchange" is that:
 
 A healthy product organization continuously optimizes this exchange.
 
+```text
 Customer Problem
     ↓
 Customer Behavior
@@ -34,11 +35,13 @@ Business Outcome
 Learning
     ↓
 Next Improvement
+```
 
 Success is measured by **outcomes** rather than **outputs**.
 
 ### Product-Lead Organization
 
+```text
 Business Goals
     ↓
 Customer Problems
@@ -50,6 +53,7 @@ Experiments
 Solutions
     ↓
 Measured Outcomes
+```
 
 "What customer problem should we solve to create business value?"
 
@@ -66,6 +70,7 @@ Measured Outcomes
 
 ### Strategic Framework
 
+```text
 Vision: What future are we trying to create?
   ↓
 Strategic Intent: What are the desired business outcomes?
@@ -79,6 +84,7 @@ Experiments & Solutions: Here the required features are discovered and forged
 Outcomes: Are we getting what we were hoping for?
   ↓
 Business Impact
+```
 
 ### Product Kata
 
@@ -87,6 +93,7 @@ Business Impact
 - Define the next target condition: An intermediate measurable outcome.
 - Run experiments toward the target condition: Hypothesize, measure, learn, adjust, repeat.
 
+```text
 Direction
     ↓
 Current Condition
@@ -100,6 +107,51 @@ Learning
 New Current Condition
     ↓
 Next Target Condition
+```
+
+### Product-Lead Org
+
+- Products are tied directly to strategy
+  - Product work exists to advance business strategy.
+  - Strategic goals are translated into product initiatives, which represent problem areas and opportunities.
+- Success is measured by outcomes, not outputs
+  - Customer adoption
+  - Retention
+  - Conversion
+  - Revenue impact
+  - Strategic objectives
+- Product managers own outcomes
+  - Understanding customers
+  - Understanding business goals
+  - Identifying opportunities
+  - Driving measurable outcomes
+- Management sets direction, not solutions
+  - Vision
+  - Strategy
+  - Desired outcomes
+- Teams are organized around value: own a continuing area of value or customer problem, eg.:
+  - Customer Activation
+  - Retention
+  - Growth
+  - Enterprise Adoption
+- Continuous discovery is part of the job: customers, data, market signals, business metrics
+  - Research
+  - Discover
+  - Experiment
+  - Measure
+  - Learn
+  - Repeat
+- Product managers are strategic participants
+- Product operations enable scale - a platform team on the product side
+  - Standardized metrics
+  - Research repositories
+  - Product processes
+  - Information flow
+- The organization optimizes the Value Exchange System
+  - What customer problem are we solving?
+  - What customer behavior are we changing?
+  - What business objective does this support?
+  - How will we measure success?
 
 ## Actions
 

@@ -18,8 +18,7 @@ Cal Newport, [Reading As An Act of Resistance](https://open.spotify.com/episode/
 - _The Reverse Centaur's Guide to Life After AI_ by Cory Doctorow
 
 ### Product
-- _Escaping the Build Trap_ by Melissa Perri (in progress)
-- _Inspired_ by Marty Cagan
+- _Inspired_ by Marty Cagan (in progress)
 
 ### Engineering
 - _Designing Data-Intensive Applications_ by Martin Kleppmann
